@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Subdivision"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Subdivision">
+				<Option output="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug/Subdivision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/."/>
+					<Add directory="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 Subdivision"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Subdivision/fast">
+				<Option output="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug/Subdivision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/."/>
+					<Add directory="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 Subdivision/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fanhongyu/Desktop/Subdivision\ Template\ 2015(single\ view\ no\ editing)\ -vs2013/Subdivision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/ChildFrm.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/ChildFrm.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/DC.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/DC.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/DibSection.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/DibSection.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/MainFrm.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/MainFrm.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/Mesh3D.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/Mesh3D.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/MeshSubdivision.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/MeshSubdivision.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/Subdivision.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/Subdivision.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/SubdivisionDoc.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/SubdivisionDoc.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/SubdivisionView.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/SubdivisionView.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/bitmap.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/bitmap.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Arcball.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Arcball.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Camera.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Camera.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Matrix44.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Matrix44.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Quaternion.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Quaternion.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Vector3d.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Vector3d.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Viewport.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball/Viewport.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/resource.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/stdafx.cpp">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/stdafx.h">
+			<Option target="Subdivision"/>
+		</Unit>
+		<Unit filename="/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
