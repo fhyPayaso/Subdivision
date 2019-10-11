@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/." -I"/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball" 
+CXX_INCLUDES = -I"/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/." -I"/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib" -I"/Users/fanhongyu/Desktop/Subdivision Template 2015(single view no editing) -vs2013/Subdivision/lib/arcball" 
 
