@@ -17,31 +17,18 @@ Mesh3D *MeshSubdivision::Doo_Sabin()
 
 	////////////////////////////////////////////////
 
-	//your implmentation
-	//New_mesh:  subdivisioned mesh
-	//m_pmesh:  original mesh
-
-	// insert all vertex
-
 	std::vector<int> vert_id_list;
 	vert_id_list.assign(m_pmesh->get_num_of_edges_list(),0);
-	// count of vertex
-	// int dd = New_mesh->get_num_of_vertices_list();
 
-	//==================
-	// YOUR CODE
-	//=================
-
-	// for each face, compute new vertex, insert vertex 对于旧网格的每个面，计算新的顶点，插入新网格
-	// and insert F-faces 插入这些新顶点构成的面相邻面
-	// save the id of these newly inserted vertex , so they can  保存新顶点的id, 使得这些id能被原始网格 的边和顶点访问
-	// be acquired using the face and vertex
-
-	// 获取旧网格的全部面
+    // ==============================================================
+    // step 1 : 计算并插入新生成的点，并插入面对应的面F-Faces ,对于每个面:
+    //          (1) 计算新的顶点
+    //          (2) 向新网格中插入顶点
+    //          (3) 插入面对应的面F-Faces
+    //          (4) 建立旧网格中的半边与新网格顶点的id对应关系
+    // ==============================================================
 	PTR_FACE_LIST face_list = m_pmesh->get_faces_list();
-	FACE_ITER fiter = face_list->begin();
-	// 遍历每个面
-	for (; fiter != face_list->end(); fiter++)
+	for (FACE_ITER fiter = face_list->begin() ; fiter != face_list->end(); fiter++)
 	{
 		// 获取边的数量
 		int n = (*fiter)->valence;
@@ -89,14 +76,12 @@ Mesh3D *MeshSubdivision::Doo_Sabin()
 		delete v_list;
 	}
 
-	//
-	//search all vertex, construct V-faces
-	//
+    // ============================================
+    // step 2 : 遍历所有点，构建并插入点对应的面V-faces
+    // ============================================
 
 	PTR_VERTEX_LIST vert_list = m_pmesh->get_vertices_list();
-    VERTEX_ITER viter = vert_list->begin();
-    // 遍历每个点
-    for(;viter != vert_list->end() ;viter++)
+    for(VERTEX_ITER viter = vert_list->begin(); viter != vert_list->end() ;viter++)
     {
         VERTEX_LIST*  v_list = new VERTEX_LIST;
         // 拿到指向该顶点的其中一条半边
@@ -115,19 +100,16 @@ Mesh3D *MeshSubdivision::Doo_Sabin()
         delete v_list;
     }
 
-	//
-	// search all edges, to build E-faces
-	// =================================
+	// ============================================
+	// step 3 : 遍历所有边，构建并插入边对应的面E-faces
 	//               | | <----------
 	//            d  | |  a
 	//            c  | |  b
 	//   ----------> | |
-	// =================================
-	//
+	// ============================================
 
 	PTR_EDGE_LIST edge_list = m_pmesh->get_edges_list();
-    EDGE_ITER eiter = edge_list->begin();
-    for(; eiter != edge_list->end() ; eiter++)
+    for(EDGE_ITER eiter = edge_list->begin() ; eiter != edge_list->end() ; eiter++)
     {
         HE_edge* curEdge = *eiter;
         HE_edge* nextEdge = curEdge->next;
@@ -136,7 +118,6 @@ Mesh3D *MeshSubdivision::Doo_Sabin()
         // 寻找前一条边
         while (nextEdgePairPre->next != nextEdgePair)
             nextEdgePairPre = nextEdgePairPre->next;
-
         // 构造新点
         VERTEX_LIST*  v_list = new VERTEX_LIST;
         v_list->push_back(New_mesh->get_vertex(vert_id_list[curEdge->id]));
@@ -147,7 +128,6 @@ Mesh3D *MeshSubdivision::Doo_Sabin()
         New_mesh->insert_face(*v_list);
         delete v_list;
     }
-
 	/////////////////////////////////////////////////
 
 	New_mesh->update_mesh();
