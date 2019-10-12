@@ -1,9 +1,0 @@
-﻿  MeshSubdivision.cpp
-cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(51,65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(98,21): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(133,21): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(181,33): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(182,33): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\MeshSubdivision.cpp(183,33): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-  Subdivision.vcxproj -> C:\Users\41061\Desktop\Subdivision Template 2015(single view no editing) -vs2013\Subdivision Template 2015(single view no editing) -vs2013\Subdivision\Debug\Subdivision.exe
